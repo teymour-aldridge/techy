@@ -33,8 +33,8 @@ Install Techy from the command line onto your system by running the following co
 
 Aaaand ... that's it. Create an empty directory and put your Markdown files inside. If you type `techy` and press *Enter* in the same folder you will see all the materials converted to HTML.
 
-Techy is not only generating HTML markup. It puts your writings into a nicely formatted layout.
+Techy doesn't just generate HTML code. It also provides a nice layout for your content.
 
 ---
 
-Checkout the full documentation [here](http://krasimir.github.io/techy/docs).
+[Checkout the full documentation](http://krasimir.github.io/techy/docs).
