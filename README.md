@@ -4,7 +4,7 @@ I'm a super simple Flat CMS based on [Node.js](http://nodejs.org) ([Gulp.js](htt
 
 ## The concept
 
-In the content driven web site (like a blog for example) the writing should be really easy. Markdown language gives us the simplicity which we need. However, sometimes converting *.md* files to *.html* files is not enough. Techy is an instrument which uses Markdown as a base but also makes your pages programmable. For example:
+In a content driven web site (like a blog for example) writing should be really easy. Markdown language gives us the simplicity we need. Sometimes, however, converting *.md* files to *.html* files is not enough. Techy allows you to write all your content in markdown, and then enhance it using templates. For example:
 
 	<% set('name', 'Big Joe') %>
 
@@ -23,7 +23,7 @@ is transformed to:
 <p>Hello, my name is Big Joe. I'm a web developer.</p>
 ```
 
-In other words, there are JavaScript expressions which you may write between `<%` and `%>` and basically fetch information based on other files in your codebase. For example generating a site map or showing the latest added Markdowns.
+In other words, there are JavaScript expressions which you may write between `<%` and `%>` and basically fetch information based on other files in your codebase. For example generating a site map or showing the latest added content.
 
 ## Simple usage
 
@@ -31,7 +31,7 @@ Install Techy from the command line onto your system by running the following co
 
 	npm install -g techy
 
-Aaaand ... that's it. Create an empty directory and put your Markdown files inside. If you type `techy` and press *Enter* in the same folder you will see all the materials converted to HTML.
+Aaaand ... that's it. Create an empty directory and put your Markdown files inside. If you type `techy` and press *Enter* Techy will take all your content and convert it to HTML. 
 
 Techy doesn't just generate HTML code. It also provides a nice layout for your content.
 
